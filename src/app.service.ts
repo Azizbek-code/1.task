@@ -56,7 +56,7 @@ export class AppService {
 
     const result:any = await fetch(url).then((r) => r.json());
 
-    console.log('Birlashtirilgan kod:', fullCode);
+    console.log('birlashtirilgan kod:', fullCode);
 
     return {
       finalMessage: result.message,
