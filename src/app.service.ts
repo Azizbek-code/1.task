@@ -8,7 +8,7 @@ export class AppService {
   private part2: string = '';
 
   async start() {
-    console.log('>>> Ngrok ishga tushirilmoqda...');
+    console.log('ngrok ishga tushirilmoqda');
 
     const listener = await ngrok.connect({
       addr: 3000,
